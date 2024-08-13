@@ -5,7 +5,7 @@ import config from 'conventional-changelog-conventionalcommits'
  *
  * See: https://github.com/conventional-changelog/conventional-changelog-config-spec
  */
-export default config({
+export default () => config({
   // While this parameter is defined in the spec, standard-version doesn't seem
   // to read it here. It does work when passed as a CLI argument; see
   // nr.config.ts.
